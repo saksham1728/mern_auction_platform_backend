@@ -1,5 +1,5 @@
 import { User } from "../models/userSchema.js";
-import { PaymentProof } from "../models/ComissionProofSchema.js";
+import { PaymentProof } from "../models/comissionProofSchema.js";
 import { Commission } from "../models/comissionSchema.js";
 import cron from "node-cron";
 import { sendEmail } from "../utils/sendEmail.js";
